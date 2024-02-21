@@ -1,0 +1,180 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.container_header{
+    display: flex;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 3em;
+    padding-left: 3em;
+    padding-right: 4em;
+    padding-bottom: 2em;
+}
+
+.container_header ul{
+    display: flex;
+    list-style: none;
+    text-transform: capitalize;
+    font-size: 25px;
+    gap: 2em;
+    color: #3A3A3C;
+    cursor: pointer;
+    padding-top: 1em;
+
+}
+.conc{
+    text-decoration: none;
+    color: #3A3A3C;
+}
+
+.container_auth{
+    display: flex;
+    gap: 3em;
+    cursor: pointer;
+}
+.container_auth p{
+    font-size: 20px;
+    color: #3A3A3C;
+    text-transform: capitalize;
+    padding-top: 1em;
+}
+.container_auth button{
+    width: 180px;
+    background: #058B42;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    font-size: 20px;
+    border: none;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    cursor: pointer;
+
+
+}
+
+.section_bg{
+    background-image: url('../Landing_Image/header_bg.jpeg');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    padding-left: 3em;
+    padding-top: 5em;
+    color: #FFFFFF;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* line-height: 20px; */
+
+}
+.para{
+    color: #16DC65;
+
+}
+.para2{
+    color: #16DC65;
+    font-size: 15px;
+
+}
+
+.search_recipes{
+    display: flex;
+    margin-top: 1em;
+}
+.search_recipes input{
+    flex: 0.2;
+    background: #3A3A3C;
+    height: 40px;
+    border: 1px solid #FFFFFF;
+    border-right: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-left: 1em;
+    color: #FAFAFA;
+    outline: none;
+}
+
+.btn{
+    width: 3%;
+    height: 40px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+
+.radi{
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    background: #020202;
+
+}
+.radi2{
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    border: 3px solid #020202;
+
+}
+.radius{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 2em;
+}
+
+
+.drop{
+    height: 35%;
+    width: 0;
+    position: absolute;
+    z-index: 1;
+    background: #f4f4f4;
+    transition: 0.5s;
+    top: 10;
+    left: 35em;
+    padding-top: 3em;
+    text-align: center;
+    display: none;
+}
+
+
+.drop a{
+    text-decoration: none;
+    color: #020202;
+    text-transform: capitalize;
+    font-size: 20px;
+    line-height: 2em;
+
+}
+.drop :hover{
+    background: #aaa;
+    color: #020202;
+    transition: 0.5s;
+}
+.drop li{
+    list-style: none;
+}
+
+.drop .open_btn{
+    position: absolute;
+    right: 22px;
+    left: 5em;
+    font-size: 36px;
+    top: 0;
+    cursor: pointer;
+}
+
+
+
+
+

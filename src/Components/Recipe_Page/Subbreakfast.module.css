@@ -1,0 +1,78 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_container,
+.container2{
+    display: flex;
+        width: 100%;
+        justify-content: center;
+        gap: 3em;
+        padding-top: 3em;
+    }
+    
+    .food_menu{
+        width: 400px;
+        border-top-right-radius: 8px;
+        border-top-left-radius: 8px;
+        height: 200px;
+    } 
+    
+    .card2{
+        border: 2px solid #6E6E6E;
+        border-top: none;
+        height: 120px;
+        position: relative;
+        bottom: 5px;
+        width: 400px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .love{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 2em;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+      .love2{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 0.1em;
+        padding-left: 2em;
+        padding-right: 2em;
+        }
+    
+    .love p{
+        color: #020202;
+        font-size: 20px;
+        text-transform: capitalize;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .heart{
+        color: #058B42;
+        cursor: pointer;
+    
+    }
+    .love2 .para{
+        color: #058B42;
+        font-size: 20px;
+    
+    }
+    
+    .para .grey{
+        color: #6E6E6E;
+    }
+
+    .border{
+        border: 0.05px solid #ADADAD;
+        width: 84%;
+        margin-top: 4em;
+        margin-left: 8em;
+        margin-bottom: 2em;
+    }

@@ -1,0 +1,185 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 2em;
+    padding-left: 3em;
+    padding-right: 4em;
+    padding-bottom: 2em;
+}
+
+.container ul{
+    display: flex;
+    list-style: none;
+    text-transform: capitalize;
+    font-size: 25px;
+    gap: 2em;
+    color: #3A3A3C;
+    cursor: pointer;
+    padding-top: 1em;
+
+}
+
+.container .users{
+    gap: 3em;
+    display: flex;
+    color: #020202;
+    font-size: 20px;
+    padding-top: 1em;
+    cursor: pointer;
+}
+
+.conc{
+    text-decoration: none;
+    color: #3A3A3C;
+}
+
+/* styling the burger and breakfast title */
+.burger{
+    background: #04471C;
+    display: flex;
+    gap: 0.3em;
+    padding-left: 3em;
+
+}
+
+
+.burger img{
+    height: 25px;
+    width: 25px;
+    margin-top: 1em;
+}
+
+.burger h3{
+    color: #FFFFFF;
+    padding-top: 1em;
+    font-size: 20px;
+    padding-bottom: 1em;
+}
+.container_section p{
+    width: 75%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2em;
+    color: #020202;
+    padding-left: 8em;
+    padding-top: 2em;
+}
+
+
+.main_counter{
+    display: flex;
+        width: 100%;
+        justify-content: center;
+        gap: 3em;
+        padding-top: 3em;
+    }
+    
+    .food_menu{
+        width: 400px;
+        border-top-right-radius: 8px;
+        border-top-left-radius: 8px;
+        height: 200px;
+    } 
+    
+    .card2{
+        border: 2px solid #6E6E6E;
+        border-top: none;
+        height: 120px;
+        position: relative;
+        bottom: 5px;
+        width: 400px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .love{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 2em;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+      .love2{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 0.1em;
+        padding-left: 2em;
+        padding-right: 2em;
+        }
+    
+    .love p{
+        color: #020202;
+        font-size: 20px;
+        text-transform: capitalize;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .heart{
+        color: #058B42;
+        cursor: pointer;
+    
+    }
+    .love2 .para{
+        color: #058B42;
+        font-size: 20px;
+    
+    }
+    
+    .para .grey{
+        color: #6E6E6E;
+    }
+
+
+    .drop{
+        height: 35%;
+        width: 0;
+        position: absolute;
+        z-index: 1;
+        background: #f4f4f4;
+        transition: 0.5s;
+        top: 10;
+        left: 35em;
+        padding-top: 3em;
+        text-align: center;
+        display: none;
+    }
+    
+    
+    .drop a{
+        text-decoration: none;
+        color: #020202;
+        text-transform: capitalize;
+        font-size: 20px;
+        line-height: 2em;
+    
+    }
+    .drop :hover{
+        background: #aaa;
+        color: #020202;
+        transition: 0.5s;
+    }
+    .drop li{
+        list-style: none;
+    }
+    
+    .drop .open_btn{
+        position: absolute;
+        right: 22px;
+        left: 5em;
+        font-size: 36px;
+        top: 0;
+        cursor: pointer;
+    }
+
+
+   
+
+

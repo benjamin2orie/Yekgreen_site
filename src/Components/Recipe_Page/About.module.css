@@ -1,0 +1,132 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+
+.container{
+    display: flex;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 2em;
+    padding-left: 3em;
+    padding-right: 4em;
+    padding-bottom: 2em;
+}
+
+.container ul{
+    display: flex;
+    list-style: none;
+    text-transform: capitalize;
+    font-size: 25px;
+    gap: 2em;
+    color: #3A3A3C;
+    cursor: pointer;
+    padding-top: 1em;
+
+}
+
+.conc{
+    text-decoration: none;
+    color: #3A3A3C;
+}
+.container .users{
+    gap: 3em;
+    display: flex;
+    color: #020202;
+    font-size: 20px;
+    padding-top: 1em;
+    cursor: pointer;
+}
+.burger{
+    background: #04471C;
+    display: flex;
+    height: 80px;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding-left: 3em;
+    padding-top: 1em;
+    gap: 0.3em;
+}
+
+.burger img{
+    height: 25px;
+    width: 25px;
+}
+
+.dev{
+    color: #3A3A3C;
+    width: 95%;
+    padding-top: 3em;
+    padding-left: 3em;
+    line-height: 2em;
+
+}
+
+.container_image img{
+    width: 600px;
+    border-radius: 4px;
+}
+
+.container_image{
+    display: flex;
+    padding-top: 3em;
+    padding-left: 3em;
+    gap: 3em;
+    padding-bottom: 3em;
+}
+
+.container_image p{
+    width: 700px;
+    line-height: 3em;
+    padding-top: 5em;
+}
+
+
+
+.drop{
+    height: 35%;
+    width: 0;
+    position: absolute;
+    z-index: 1;
+    background: #f4f4f4;
+    transition: 0.5s;
+    top: 10;
+    left: 35em;
+    padding-top: 3em;
+    text-align: center;
+    display: none;
+}
+
+
+.drop a{
+    text-decoration: none;
+    color: #020202;
+    text-transform: capitalize;
+    font-size: 20px;
+    line-height: 2em;
+
+}
+.drop :hover{
+    background: #aaa;
+    color: #020202;
+    transition: 0.5s;
+}
+.drop li{
+    list-style: none;
+}
+
+.drop .open_btn{
+    position: absolute;
+    right: 22px;
+    left: 5em;
+    font-size: 36px;
+    top: 0;
+    cursor: pointer;
+}
