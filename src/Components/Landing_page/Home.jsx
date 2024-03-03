@@ -31,7 +31,7 @@ const Home = () => {
                 <nav>
                     <ul>
                         <li>
-                            <Link to='/about'>about us</Link>
+                            <Link to='/about' className={styles.conc}>about us</Link>
                         </li>
                         <li onClick={Open}>recipes</li>
                         <li>
