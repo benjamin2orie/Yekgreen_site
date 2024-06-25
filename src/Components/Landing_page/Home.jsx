@@ -40,7 +40,8 @@ const Home = () => {
                     </ul>
                 </nav>
                 <div className={ styles.container_auth}>
-                    <p>login <img src={login} alt='icon'/></p>
+                    <Link to='/Login' className={styles.conc_auth}>Login <img src={login} alt='icon'/></Link>
+                    {/* <p>login <img src={login} alt='icon'/></p> */}
                     <button><AiOutlineUser/> register</button>
                 </div>
             </header>

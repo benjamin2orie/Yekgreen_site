@@ -34,7 +34,8 @@ body{
 
 
 .card2{
-    border: 2px solid #6E6E6E;
+    /* border: 1px solid #6E6E6E; */
+    border: 1px solid #D4D4D4;
     border-top: none;
     height: 120px;
     position: relative;
@@ -59,6 +60,8 @@ body{
     padding-top: 2em;
     padding-left: 2em;
     padding-right: 2em;
+    padding-bottom: 1em;
+    /* line-height: 3em; */
 }
   .love2{
     display: flex;
