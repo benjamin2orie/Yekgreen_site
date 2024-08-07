@@ -6,7 +6,7 @@ import { FiFileText } from "react-icons/fi";
 import Burger from "../Recipes_Images/burger-thin.png";
 import Bread from "../Recipes_Images/Bread.jpg";
 import Pancake from "../Recipes_Images/pancake.jpg";
-import jollof from "../Landing_Image/jollof_rice&chicken.png";
+import jollof from "..//Landing_Image/jollof_rice&chicken.png";
 import Subbreakfast from "./Subbreakfast";
 import { Link } from "react-router-dom";
 
@@ -93,7 +93,7 @@ const Breakfast = () => {
               </div>
               <div className={styles.love2}>
                 <p className={styles.para}>
-                  High in Carbs .{" "}
+                  High in Carbs
                   <span className={styles.grey}>4 Servings</span>
                 </p>
                 <p>
@@ -115,11 +115,11 @@ const Breakfast = () => {
               </div>
               <div className={styles.love2}>
                 <p className={styles.para}>
-                  High in Carbs .{" "}
+                  High in Carbs
                   <span className={styles.grey}>4 Servings</span>
                 </p>
                 <p>
-                  4.5{" "}
+                  4.5
                   <span>
                     <AiOutlineStar className={styles.heart} />
                   </span>
@@ -141,11 +141,10 @@ const Breakfast = () => {
               </div>
               <div className={styles.love2}>
                 <p className={styles.para}>
-                  High in Carbs .{" "}
-                  <span className={styles.grey}>6 Servings</span>
+                  High in Carbs .<span className={styles.grey}>6 Servings</span>
                 </p>
                 <p>
-                  4.5{" "}
+                  4.5
                   <span>
                     <AiOutlineStar className={styles.heart} />
                   </span>
