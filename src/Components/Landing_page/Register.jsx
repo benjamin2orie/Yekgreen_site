@@ -46,9 +46,9 @@ const Login = () => {
           </ul>
         </nav>
         <div className={styles.container_auth}>
-          <p>
+          <Link to="Login">
             login <img src={login} alt="icon" />
-          </p>
+          </Link>
           <button>
             <AiOutlineUser /> register
           </button>

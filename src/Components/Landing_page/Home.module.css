@@ -46,17 +46,16 @@ body{
     text-decoration:none;
     padding-top: 1em;
 }
-.container_auth button{
+.container_auth .button{
     width: 180px;
     background: #058B42;
     color: #FFFFFF;
     text-transform: capitalize;
-    font-size: 20px;
+    font-size: 25px;
     border: none;
-    border-top-right-radius: 8px;
-    border-top-left-radius: 8px;
-    border-bottom-right-radius: 8px;
-    border-bottom-left-radius: 8px;
+   border-radius: 8px;
+   text-decoration: none;
+   padding: 1em;
     cursor: pointer;
 
 
