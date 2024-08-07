@@ -97,7 +97,7 @@ const Breakfast = () => {
                   <span className={styles.grey}>4 Servings</span>
                 </p>
                 <p>
-                  4.5{" "}
+                  4.5
                   <span>
                     <AiOutlineStar className={styles.heart} />
                   </span>
