@@ -42,7 +42,7 @@ const Home = () => {
           </nav>
           <div className={styles.container_auth}>
             <Link to="/Login" className={styles.conc_auth}>
-              Login <img src={login} alt="icon" />
+              login <img src={login} alt="icon" />
             </Link>
             <Link to="Register" className={styles.button}>
               <AiOutlineUser /> register
