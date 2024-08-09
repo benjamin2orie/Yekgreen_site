@@ -4,6 +4,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    
 }
 
 .container_header{
@@ -244,4 +245,13 @@ padding-left: 4em;
  .ddd{
     text-decoration: none;
     color: #058B42;
+    padding-left: 0.5em;
+    font-family:Arial, Helvetica, sans-serif
+}
+.conc_auth{
+    font-size: 20px;
+    color: #3A3A3C;
+    text-transform: capitalize;
+    text-decoration:none;
+    padding-top: 1em;
 }

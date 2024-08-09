@@ -10,8 +10,9 @@ import Apple from "../Landing_Image/apple.png";
 import Path from "../Landing_Image/Pathf.png";
 import Search from "../Landing_Image/search.png";
 import { Link } from "react-router-dom";
+import Login from "./Login";
 
-const Login = () => {
+const Register = () => {
   const Open = () => {
     let main = document.getElementById("main");
     main.style.width = "250px";
@@ -46,7 +47,7 @@ const Login = () => {
           </ul>
         </nav>
         <div className={styles.container_auth}>
-          <Link to="Login">
+          <Link to="/login" className={styles.conc_auth}>
             login <img src={login} alt="icon" />
           </Link>
           <button>
@@ -76,7 +77,7 @@ const Login = () => {
         />
         <div className={styles.container_border}>
           <form>
-            <h3>Login to do more</h3>
+            <h3>Register to do more</h3>
             {/* <AiOutlineUser className={styles.userAccount} /> */}
             <div className={styles.container_input}>
               <MdOutlineMail className={styles.mailIcon} />
@@ -90,7 +91,7 @@ const Login = () => {
             />
             <input
               type="submit"
-              value={"Login with Email"}
+              value={"Signup with Email"}
               className={styles.more}
             />
           </form>
@@ -112,9 +113,9 @@ const Login = () => {
             </div>
           </div>
           <span>
-            Don't have an account?{" "}
-            <Link className={styles.ddd} to="/register">
-              Register here
+            have an account?
+            <Link className={styles.ddd} to="/login">
+              Login here
             </Link>
           </span>
         </div>
@@ -123,4 +124,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Register;
